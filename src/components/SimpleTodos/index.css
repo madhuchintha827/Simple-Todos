@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  height: 100vh;
+  background-color: #ffc2a0;
+  justify-content: center;
+  padding: 20px;
+}
+
+.todo-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 95%;
+  border-radius: 15px;
+  padding: 10px;
+}
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
